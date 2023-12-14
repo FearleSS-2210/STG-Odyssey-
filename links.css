@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(28, 62, 63);
+    color: white;
+    font-size: 24px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+hr{
+    border-color: indianred;
+    background-color: indianred;
+    height: 10px;
+}
+
+div{
+    margin-top: 20%;
+}
+
+img{
+    border-radius: 50px;
+    transition: 0.5s all ease-in-out;
+}
+
+.i1{
+    height: 150px;
+    width: 150px;
+    margin-top: 30%;
+}
+
+.i2{
+    height: 50px;
+    width: 250px;
+    margin-top: 10%;
+}
+
+img:hover{
+    transform: scale(1.25);
+}
